@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
 
   //fatch from data server
 
-  const response = await fetch('http://localhost:5051',{
+  const response = await fetch('https://ai-soluations.onrender.com',{
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
